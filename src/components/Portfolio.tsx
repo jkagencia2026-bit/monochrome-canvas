@@ -12,8 +12,18 @@ import gastronomy6 from '@/assets/portfolio/gastronomy-6.jpg';
 import gastronomy7 from '@/assets/portfolio/gastronomy-7.jpg';
 import gastronomy8 from '@/assets/portfolio/gastronomy-8.jpg';
 import gastronomy9 from '@/assets/portfolio/gastronomy-9.jpg';
-// Other categories
+// Medicina
 import medicine1 from '@/assets/portfolio/medicine-1.jpg';
+import medicine2 from '@/assets/portfolio/medicine-2.jpg';
+import medicine3 from '@/assets/portfolio/medicine-3.jpg';
+import medicine4 from '@/assets/portfolio/medicine-4.jpg';
+import medicine5 from '@/assets/portfolio/medicine-5.jpg';
+import medicine6 from '@/assets/portfolio/medicine-6.jpg';
+import medicine7 from '@/assets/portfolio/medicine-7.jpg';
+import medicine8 from '@/assets/portfolio/medicine-8.jpg';
+import medicine9 from '@/assets/portfolio/medicine-9.jpg';
+import medicine10 from '@/assets/portfolio/medicine-10.jpg';
+// Other categories
 import nutrition1 from '@/assets/portfolio/nutrition-1.jpg';
 import services1 from '@/assets/portfolio/services-1.jpg';
 import personalDev1 from '@/assets/portfolio/personal-dev-1.jpg';
@@ -37,7 +47,7 @@ const categories: Category[] = [
     id: 'medicina',
     name: 'Medicina',
     coverImage: medicine1,
-    images: Array(10).fill(medicine1),
+    images: [medicine1, medicine2, medicine3, medicine4, medicine5, medicine6, medicine7, medicine8, medicine9, medicine10],
   },
   {
     id: 'nutricao',
