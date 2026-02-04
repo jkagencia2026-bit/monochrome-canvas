@@ -35,6 +35,9 @@ import nutrition8 from '@/assets/portfolio/nutrition-8.jpg';
 // Other categories
 import services1 from '@/assets/portfolio/services-1.jpg';
 import personalDev1 from '@/assets/portfolio/personal-dev-1.jpg';
+import personalDev2 from '@/assets/portfolio/personal-dev-2.jpg';
+import personalDev3 from '@/assets/portfolio/personal-dev-3.jpg';
+import personalDev4 from '@/assets/portfolio/personal-dev-4.jpg';
 import events1 from '@/assets/portfolio/events-1.jpg';
 
 interface Category {
@@ -73,7 +76,7 @@ const categories: Category[] = [
     id: 'desenvolvimento-pessoal',
     name: 'Desenvolvimento Pessoal',
     coverImage: personalDev1,
-    images: Array(10).fill(personalDev1),
+    images: [personalDev1, personalDev2, personalDev3, personalDev4],
   },
   {
     id: 'eventos',
