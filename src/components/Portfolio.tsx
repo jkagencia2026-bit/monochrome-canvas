@@ -2,8 +2,17 @@ import { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
-// Portfolio images
+// Portfolio images - Gastronomia
 import gastronomy1 from '@/assets/portfolio/gastronomy-1.jpg';
+import gastronomy2 from '@/assets/portfolio/gastronomy-2.jpg';
+import gastronomy3 from '@/assets/portfolio/gastronomy-3.jpg';
+import gastronomy4 from '@/assets/portfolio/gastronomy-4.jpg';
+import gastronomy5 from '@/assets/portfolio/gastronomy-5.jpg';
+import gastronomy6 from '@/assets/portfolio/gastronomy-6.jpg';
+import gastronomy7 from '@/assets/portfolio/gastronomy-7.jpg';
+import gastronomy8 from '@/assets/portfolio/gastronomy-8.jpg';
+import gastronomy9 from '@/assets/portfolio/gastronomy-9.jpg';
+// Other categories
 import medicine1 from '@/assets/portfolio/medicine-1.jpg';
 import nutrition1 from '@/assets/portfolio/nutrition-1.jpg';
 import services1 from '@/assets/portfolio/services-1.jpg';
@@ -17,13 +26,12 @@ interface Category {
   images: string[];
 }
 
-// Each category has 10 images (using same image repeated for demo - replace with real images)
 const categories: Category[] = [
   {
     id: 'gastronomia',
     name: 'Gastronomia',
     coverImage: gastronomy1,
-    images: Array(10).fill(gastronomy1),
+    images: [gastronomy1, gastronomy2, gastronomy3, gastronomy4, gastronomy5, gastronomy6, gastronomy7, gastronomy8, gastronomy9],
   },
   {
     id: 'medicina',
