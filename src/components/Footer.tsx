@@ -12,7 +12,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             className="font-serif text-2xl"
           >
-            LUMIÈRE
+            JK MARKETING
           </motion.div>
 
           <motion.nav
@@ -41,7 +41,7 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-sm text-muted-foreground"
           >
-            © 2024 Lumière. Todos os direitos reservados.
+            © 2024 JK Marketing. Todos os direitos reservados.
           </motion.p>
         </div>
       </div>

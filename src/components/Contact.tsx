@@ -38,7 +38,7 @@ const Contact = () => {
 
             <div className="space-y-6 mb-12">
               <a 
-                href="mailto:contato@lumiere.com.br"
+                href="mailto:jkagencia2026@gmail.com"
                 className="flex items-center gap-4 group"
               >
                 <div className="w-12 h-12 border border-border flex items-center justify-center
@@ -47,7 +47,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-caption text-muted-foreground mb-1">E-mail</p>
-                  <p className="link-underline">contato@lumiere.com.br</p>
+                  <p className="link-underline">jkagencia2026@gmail.com</p>
                 </div>
               </a>
 
@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-caption text-muted-foreground mb-1">Localização</p>
-                  <p>São Paulo, Brasil</p>
+                  <p>Cuiabá, MT | Vilhena, RO</p>
                 </div>
               </div>
             </div>

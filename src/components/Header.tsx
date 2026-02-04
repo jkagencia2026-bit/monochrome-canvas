@@ -37,7 +37,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-20 md:h-24">
             {/* Logo */}
             <a href="#" className="font-serif text-xl md:text-2xl tracking-tight">
-              LUMIÈRE
+              JK MARKETING
             </a>
 
             {/* Desktop Navigation */}
@@ -81,7 +81,7 @@ const Header = () => {
             <div className="container-custom h-full flex flex-col">
               <div className="flex items-center justify-between h-20">
                 <a href="#" className="font-serif text-xl tracking-tight">
-                  LUMIÈRE
+                  JK MARKETING
                 </a>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
