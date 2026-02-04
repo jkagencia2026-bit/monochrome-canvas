@@ -38,7 +38,7 @@ const About = () => {
               className="space-y-6"
             >
               <p className="text-body-large text-muted-foreground">
-                Há mais de uma década, a Lumière tem sido referência em soluções 
+                Há 2 anos, a JK Marketing tem sido referência em soluções 
                 criativas completas. Nossa abordagem 360° garante que cada projeto 
                 receba atenção integral — do conceito à execução final.
               </p>
@@ -57,9 +57,9 @@ const About = () => {
               className="mt-12 grid grid-cols-3 gap-8"
             >
               {[
-                { number: '150+', label: 'Projetos' },
-                { number: '80+', label: 'Clientes' },
-                { number: '12', label: 'Anos' },
+                { number: '50+', label: 'Projetos' },
+                { number: '35+', label: 'Clientes' },
+                { number: '2', label: 'Anos' },
               ].map((stat, index) => (
                 <div key={index} className="text-center lg:text-left">
                   <span className="block text-3xl md:text-4xl font-serif mb-1">
