@@ -34,6 +34,11 @@ import nutrition7 from '@/assets/portfolio/nutrition-7.jpg';
 import nutrition8 from '@/assets/portfolio/nutrition-8.jpg';
 // Other categories
 import services1 from '@/assets/portfolio/services-1.jpg';
+import services2 from '@/assets/portfolio/services-2.jpg';
+import services3 from '@/assets/portfolio/services-3.jpg';
+import services4 from '@/assets/portfolio/services-4.jpg';
+import services5 from '@/assets/portfolio/services-5.jpg';
+import services6 from '@/assets/portfolio/services-6.jpg';
 import personalDev1 from '@/assets/portfolio/personal-dev-1.jpg';
 import personalDev2 from '@/assets/portfolio/personal-dev-2.jpg';
 import personalDev3 from '@/assets/portfolio/personal-dev-3.jpg';
@@ -70,7 +75,7 @@ const categories: Category[] = [
     id: 'servicos',
     name: 'Serviços',
     coverImage: services1,
-    images: Array(10).fill(services1),
+    images: [services1, services2, services3, services4, services5, services6],
   },
   {
     id: 'desenvolvimento-pessoal',
