@@ -59,14 +59,14 @@ const categories: Category[] = [
   {
     id: 'gastronomia',
     name: 'Gastronomia',
-    coverImage: gastronomy1,
-    images: [gastronomy1, gastronomy2, gastronomy3, gastronomy4, gastronomy5, gastronomy6, gastronomy7, gastronomy8, gastronomy9],
+    coverImage: gastronomy2,
+    images: [gastronomy2, gastronomy3, gastronomy4, gastronomy5, gastronomy6, gastronomy7, gastronomy8, gastronomy9],
   },
   {
     id: 'medicina',
     name: 'Medicina',
-    coverImage: medicine1,
-    images: [medicine1, medicine2, medicine3, medicine4, medicine5, medicine6, medicine7, medicine8, medicine9, medicine10],
+    coverImage: medicine2,
+    images: [medicine2, medicine3, medicine4, medicine5, medicine6, medicine7, medicine8, medicine9, medicine10],
   },
   {
     id: 'nutricao',
