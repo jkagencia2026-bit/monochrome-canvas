@@ -44,6 +44,9 @@ import personalDev2 from '@/assets/portfolio/personal-dev-2.jpg';
 import personalDev3 from '@/assets/portfolio/personal-dev-3.jpg';
 import personalDev4 from '@/assets/portfolio/personal-dev-4.jpg';
 import events1 from '@/assets/portfolio/events-1.jpg';
+import events2 from '@/assets/portfolio/events-2.jpg';
+import events3 from '@/assets/portfolio/events-3.jpg';
+import events4 from '@/assets/portfolio/events-4.jpg';
 
 interface Category {
   id: string;
@@ -87,7 +90,7 @@ const categories: Category[] = [
     id: 'eventos',
     name: 'Eventos',
     coverImage: events1,
-    images: Array(10).fill(events1),
+    images: [events1, events2, events3, events4],
   },
 ];
 
